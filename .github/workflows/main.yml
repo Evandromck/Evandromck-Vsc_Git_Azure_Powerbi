@@ -5,7 +5,7 @@ on:
   pull_request:
     types: [opened, edited, closed]
     branches:
-      - main
+      - master
 
 jobs:
   alert:
@@ -21,6 +21,6 @@ jobs:
         ado_new_state: 'To DO'
         ado_active_state: 'In Progress'
         ado_close_state: 'Done'
-      ado_area_path: 'optional_area_path\\optional_area_path'
+       ado_area_path: 'optional_area_path\\optional_area_path'
         
       
