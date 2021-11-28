@@ -17,10 +17,11 @@ jobs:
         github_token: '${{ secrets.GH_TOKEN }}'    
         ado_organization: 'emerj-disic'
         ado_project: 'teste'
-        ado_wit: 'Task' 
+        ado_wit: 'task' 
         ado_new_state: 'To Do'
         ado_active_state: 'In Progress'
         ado_close_state: 'Done'
-       ado_area_path: 'optional_area_path\\optional_area_path'
+        ado_area_path: 'optional_area_path\\optional_area_path'
+
         
       
